@@ -1,0 +1,261 @@
+{
+  "research_date": "2026-11-16",
+  "scope": "Application Answer Adapter: preserve candidate voice/evidence while adapting past answers to different companies and prompts",
+  "method": "Verified public discussion content using web search and opened pages; D07 only search-returned excerpts due to 403. Seven distinct discussion threads plus two primary policy/instruction supplements. Roles are self-described. No private hiring systems or unpublished scoring inspected.",
+  "independence_note": "Distinct threads are independent public conversations, not verified independent samples; all can be self-selected, mistaken or fabricated. Comments in a single thread are not counted separately.",
+  "records": [
+    {
+      "id": "D01",
+      "title": "A heads-up for all job seekers: Your ChatGPT-written application is very obvious, and it’s getting you rejected.",
+      "url": "https://www.reddit.com/r/Resume/comments/1njav6t/a_headsup_for_all_job_seekers_your_chatgptwritten/",
+      "published_date": "2025-09-17",
+      "date_precision": "day (search result timestamp; open page shows relative age)",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "u/Late_Reaction_1469, self-described small marketing-company owner",
+      "observations": [
+        "Owner reports more than 150 applications and approximately 40% giving the same responses to three short-answer questions; says interviewees had relevant experience and thoughtful answers.",
+        "Owner explicitly clarifies that they personally filtered applications, not a software sorting tool."
+      ],
+      "interpretations": [
+        "Attributing all repeated prose to ChatGPT is the owner’s inference; the applications and model-use records are unavailable."
+      ],
+      "limitations": [
+        "One content-creation hiring round; unverified identity, counts, decisions and alleged model origin. Comments dispute the application burden and report mixed experiences with AI assistance."
+      ],
+      "actionable_implications": [
+        "Use the candidate’s own ideas and past evidence for opinion/personality questions; answer the actual question instead of generating a universal persuasive paragraph."
+      ],
+      "does_not_prove": [
+        "No measured AI detection accuracy, representative rejection rate, universal AI ban or causal effect of rewriting."
+      ],
+      "verified_content_location": "Original post paragraphs 1–5 and clarification; open-page lines 19–26."
+    },
+    {
+      "id": "D02",
+      "title": "Do recruiters care/ can they tell if the cover letter is written by AI?",
+      "url": "https://www.reddit.com/r/recruitinghell/comments/1ptb98w/do_recruiters_care_can_they_tell_if_the_cover/",
+      "published_date": "2025-12-22",
+      "date_precision": "day for thread from search; individual comment dates only relative",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "u/ChargeOk6786, self-described communications hiring participant; u/loralii00, claims 13 years tech recruiting; u/Aggravating_Degree34, claims 22 years finance/healthcare recruiting",
+      "observations": [
+        "ChargeOk6786 reports reducing 150 applications to 20; their boss noticed similar cover letters without personal examples; reports hiring a candidate with a distinctive letter.",
+        "loralii00 says they never read cover letters. Aggravating_Degree34 says experience and credentials matter most and they sometimes read letters to clarify relocation.",
+        "Applicant RosstaMSU reports interviews with AI-assisted letters and no noticed difference from self-written ones."
+      ],
+      "interpretations": [
+        "This thread supports variation by role and reader, rather than a shared rule about AI or cover letters."
+      ],
+      "limitations": [
+        "Anonymous, self-selected comments; no linked applications or outcome audit; comments within one thread are not independent study samples. AI identification is subjective."
+      ],
+      "actionable_implications": [
+        "Preserve concrete examples and relevant context; avoid claiming a distinctive answer guarantees an interview or that all recruiters read letters."
+      ],
+      "does_not_prove": [
+        "No universal preference, reliable detector, quantified callback effect or evidence that polished language alone establishes AI use."
+      ],
+      "verified_content_location": "Comments by named users; open-page lines 186–217 and 304–311."
+    },
+    {
+      "id": "D03",
+      "title": "Job applicants: Stop using AI (please)",
+      "url": "https://www.reddit.com/r/newzealand/comments/1s4lxje/job_applicants_stop_using_ai_please/",
+      "published_date": "2026-03-26",
+      "date_precision": "day from search timestamp",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "u/Background-Celery-25, self-described SME owner hiring a part-time PA; u/Phantom-Finger, self-described application recipient",
+      "observations": [
+        "Owner objects to stock responses but accepts grammar/spelling/tone help; also says their own contracting letter is a standard template adapted with names, title and keywords.",
+        "Phantom-Finger reports a word-for-word recurring paragraph about their business across received letters."
+      ],
+      "interpretations": [
+        "Owner labels all received letters AI-generated, without demonstrating how that was established. Repeated company text could reflect shared website/template inputs."
+      ],
+      "limitations": [
+        "Single small-business context, unknown sample size and subjective AI attribution. Replies challenge the distinction between templates and generation."
+      ],
+      "actionable_implications": [
+        "Treat company facts as context to connect to personal evidence, rather than copying a website paragraph. Preserve useful reusable candidate language; reuse itself is not evidence of wrongdoing."
+      ],
+      "does_not_prove": [
+        "No demonstrated universal rejection rule or claim that any reuse, polishing or company mention harms applications."
+      ],
+      "verified_content_location": "Original post lines 21–25; Phantom-Finger comment lines 119–129."
+    },
+    {
+      "id": "D04",
+      "title": "Company Name does not match description (heads up)",
+      "url": "https://www.reddit.com/r/hiringcafe/comments/1n1g7lg/company_name_does_not_match_description_heads_up/",
+      "published_date": "2025-08-27",
+      "date_precision": "day from search timestamp",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "u/define_yourself72 and u/ProfDrd, self-described applicants",
+      "observations": [
+        "OP says the aggregator showed a wrong company name/site while linking to the correct application; reports using that wrong name in their cover letter.",
+        "ProfDrd separately reports using the client’s name rather than the employer’s. No hiring outcome is reported."
+      ],
+      "interpretations": [
+        "OP suggests acronym confusion (VBA) caused the mismatch; this cause is not independently verified."
+      ],
+      "limitations": [
+        "No independent reconstruction of the posting, image or platform data; no demonstrated model involvement; both accounts are anonymous."
+      ],
+      "actionable_implications": [
+        "Confirm target employer against the actual posting/application; distinguish employer, client, agency and similarly named organizations before rewriting company references."
+      ],
+      "does_not_prove": [
+        "No rejection outcome, AI-specific cause, or evidence that every aggregator is unreliable."
+      ],
+      "verified_content_location": "Original post lines 23–25; ProfDrd comments lines 52–67; OP clarification line 91."
+    },
+    {
+      "id": "D05",
+      "title": "Fumbled a phone screen…",
+      "url": "https://www.reddit.com/r/FinancialCareers/comments/1ndiycl/fumbled_a_phone_screen/",
+      "published_date": "2025-09-10",
+      "date_precision": "day from search timestamp",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "u/UnaccreditedSetup, internship applicant; u/2400hoops, self-described employee describing own earlier application",
+      "observations": [
+        "OP reports saying another company’s name during a phone screen.",
+        "2400hoops reports HR noticed the wrong company name in their cover letter, liked their resume and reassured them; refers to this as their current job."
+      ],
+      "interpretations": [
+        "A company-name mistake can be noticed without automatically ending an application."
+      ],
+      "limitations": [
+        "Anonymous anecdote; different candidate and employer from OP; no documentary confirmation or estimate of frequency."
+      ],
+      "actionable_implications": [
+        "Check stale company/role names carefully, while explaining mistakes proportionately rather than predicting inevitable rejection."
+      ],
+      "does_not_prove": [
+        "No proof company-name errors are harmless, universally forgiven or automatically fatal."
+      ],
+      "verified_content_location": "OP lines 21–23; 2400hoops comment lines 84–92."
+    },
+    {
+      "id": "D06",
+      "title": "How do you use AI with job applications?",
+      "url": "https://www.reddit.com/r/UKJobs/comments/1qxw143/how_do_you_use_ai_with_job_applications/",
+      "published_date": null,
+      "date_precision": "open page shows 9 months ago; exact publication date not established",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "u/WranglerSure9966, self-described applicant; u/hunsnet457, self-described user of reusable application answers; u/gameofgroans_, self-described autistic applicant",
+      "observations": [
+        "OP describes spending hours tailoring applications without interviews and asks for a more efficient workflow.",
+        "hunsnet457 says they keep wording and examples in a document and use pieces for application questions; asks AI for an assessment and minor improvements.",
+        "gameofgroans_ uses AI to break down what a job description is asking, then writes their own response."
+      ],
+      "interpretations": [
+        "These accounts support an evidence-first reuse and critique workflow and show that assistance may help interpretation as well as speed."
+      ],
+      "limitations": [
+        "No measured time savings or hiring outcome; role and employment status of commenters unverified. Other comments make unsupported ATS claims, excluded here."
+      ],
+      "actionable_implications": [
+        "Accept existing answers and rough examples; clarify prompt purpose; offer light edits without forcing complete rewrites."
+      ],
+      "does_not_prove": [
+        "No proof a five-criterion score predicts employer assessment or that this workflow improves callback rates."
+      ],
+      "verified_content_location": "OP lines 19–22; gameofgroans_ line 88; hunsnet457 lines 220–223."
+    },
+    {
+      "id": "D07",
+      "title": "Open thread – February 6, 2026 (discussion of application filtering)",
+      "url": "https://www.askamanager.org/2026/02/open-thread-february-6-2026.html",
+      "published_date": "2026-02-06",
+      "date_precision": "day, article URL and dated comment excerpts",
+      "accessed_date": "2026-11-16",
+      "source_type": "firsthand_public_discussion",
+      "author_role": "my cat was prettier than me and AVP, self-described hiring participants; Ann O’Nemity, self-described hiring manager; Canonical23, former hiring manager",
+      "observations": [
+        "Search-accessible dated comments describe manually reviewing applications in small organizations.",
+        "Ann O’Nemity describes minimum-qualification/screening-question filters followed by HR review, while saying their employer declined more advanced ranking features.",
+        "Canonical23 describes a manual first pass where unclear evidence of qualifications could lose out to clearer applications."
+      ],
+      "interpretations": [
+        "Practices vary; automated knockout answers and human assessment should not be conflated with universal AI prose scoring."
+      ],
+      "limitations": [
+        "Direct page open returned 403. Verification is limited to long search-returned page excerpts with commenter names and timestamps, not the complete page. Roles and workflows are self-described; no ATS configurations inspected."
+      ],
+      "actionable_implications": [
+        "Keep eligibility and practical answers accurate, state relevant evidence clearly, and do not rewrite facts merely to satisfy imagined hidden scores."
+      ],
+      "does_not_prove": [
+        "No representative prevalence, no universal absence/presence of automation, no validation of commenters’ legal or platform claims."
+      ],
+      "verified_content_location": "Search retrieval of page includes question 3 and dated replies; direct fetch failed 403."
+    },
+    {
+      "id": "P01",
+      "title": "AI Usage Guidelines for Candidates",
+      "url": "https://new-www.storyblok.com/legal/ai-usage-guidelines-for-candidates",
+      "published_date": null,
+      "date_precision": "undated page; observed 16 November 2026",
+      "accessed_date": "2026-11-16",
+      "source_type": "primary_employer_policy_supplement",
+      "author_role": "Storyblok official candidate policy",
+      "observations": [
+        "Application guidance permits refinement/structuring while requiring candidates’ real experience, perspective and reasoning.",
+        "Take-home AI use depends on the brief; this policy treats silence as not permitted. Live interview generation is restricted, but live coding AI may be invited explicitly."
+      ],
+      "interpretations": [
+        "Permission is stage- and employer-specific."
+      ],
+      "limitations": [
+        "Policy establishes stated expectations, not observed enforcement or effectiveness; may change."
+      ],
+      "actionable_implications": [
+        "Check supplied instructions before adapting; preserve the candidate’s ideas. Do not export Storyblok’s default for silent briefs into a universal rule."
+      ],
+      "does_not_prove": [
+        "No industry-wide ban, detector accuracy or evidence of enforcement rates."
+      ],
+      "verified_content_location": "Sections Application, Take-Home Assessments, Live Interviews and Live Coding Interviews, lines 81–105."
+    },
+    {
+      "id": "P02",
+      "title": "Communications Officer Application Questions",
+      "url": "https://files.justice.org.uk/wp-content/uploads/2025/08/22165346/Communications-officer-questions.pdf",
+      "published_date": null,
+      "date_precision": "undated document; August 2025 upload path is not proof of publication date",
+      "accessed_date": "2026-11-16",
+      "source_type": "primary_role_instructions_supplement",
+      "author_role": "JUSTICE official role-specific question sheet",
+      "observations": [
+        "Discourages reliance on AI-generated content and says it will diminish success; requests relevant personal evidence in the applicant’s voice.",
+        "Explicitly says points are deducted for exceeding word limits and asks for word counts. Motivation and experience questions mostly cap at 250 words; optional additional information at 100.",
+        "Suggests STAR as useful, not essential."
+      ],
+      "interpretations": [
+        "This is a concrete published assessment instruction rather than a guessed hidden scoring rule."
+      ],
+      "limitations": [
+        "One historical vacancy; not an organization-wide/current policy and no evidence of actual scoring or enforcement supplied."
+      ],
+      "actionable_implications": [
+        "Read exact question/limits; count the final answer; use behavioral structure flexibly. Honor an explicit restriction on generation."
+      ],
+      "does_not_prove": [
+        "No universal word-count penalty, mandatory STAR format, AI detector or general hiring rule."
+      ],
+      "verified_content_location": "One-page PDF, lines 0–24."
+    }
+  ],
+  "evidence_gaps": [
+    "No direct evidence here measures repeated stories across different questions in the same application; batch deduplication is an editorial safeguard, not an established employer penalty.",
+    "No source establishes the candidate’s personal motivation from a company fact. Ask/confirm rather than infer genuine enthusiasm.",
+    "No controlled evidence comparing an old-answer adaptation workflow with writing from scratch.",
+    "No basis for universal detector evasion, secret scores, callback guarantees, or company-name mistakes causing automatic rejection."
+  ]
+}

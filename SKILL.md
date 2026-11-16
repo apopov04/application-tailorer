@@ -1,64 +1,99 @@
 ---
-name: application-answer-adapter
-description: Reuse and tailor past job-application answers for a new company, role or question while preserving the candidate’s voice and evidence. Use for application-question rewrites, motivation answers, behavioral examples, short-form responses and coherent batches with word or character limits. Ask for past question-and-answer pairs before starting from scratch; this is candidate-side writing, not application submission.
+name: application-tailorer
+description: Adapt past job-application questions and exact answers for a new company, role or prompt while preserving the candidate’s voice and factual evidence. Use for application-answer rewrites, motivation and behavioral questions, and coherent answer batches with length limits. Start by requesting past question-and-answer pairs when none have been supplied. This skill drafts candidate-side answers; it does not submit applications.
 ---
 
-# Application Answer Adapter
+# Application Tailorer
 
-Help someone stop rewriting the same application from zero. Recover the useful personal evidence in answers they have already written, understand what the new question actually asks, and produce an answer that sounds like them and belongs in this application.
+Turn the candidate’s existing answers into a credible response to this application. Preserve what is true and characteristic of the person; reconsider the argument, example and company connection for each new question. Give useful editorial reasoning alongside the answer so the candidate can judge and improve it.
 
-## Start with their existing answers
+## Begin with the candidate’s own material
 
-At the first useful opportunity, ask whether they have past **questions and the exact answers they wrote**, including the original company/role if known. Accept rough drafts, rejected applications and disconnected notes. Do not require a polished answer bank. If they already supplied these in the conversation, use them without asking again. If they have none, accept that and work from their CV, notes or a few focused questions. Do not repeatedly ask them to find old material.
+If past answers have not been supplied, first ask for **the original questions and the exact answers they wrote**, with the old company and role if known. Rough or unsuccessful answers are useful. Ask for the new exact question, company/role, relevant posting and word or character limit in the same short request where missing. For example:
 
-Collect the new question exactly as shown, target company/role, the posting or relevant context, any word/character limit, and whether they want a light edit or a fuller rewrite. Bundle missing essentials into one short request. Candidate-specific facts in the conversation count as inputs. Do useful analysis with what is already available; do not fill the first response with a questionnaire.
+> Paste a few past application questions and your exact answers, even rough ones. Include the old company/role if you have it, plus the new question, target role/company, and any length limit. I’ll show what transfers, what needs changing, and why.
 
-When essential facts are missing, explain the specific detail that would unlock a credible answer. A clearly marked draft with one focused question can be more useful than refusing to begin. A submission-ready answer should not contain unresolved placeholders.
+Use material already in this conversation without asking for it again. Do not begin a full intake questionnaire before looking at the old answers. A CV can support facts, but the old question-answer pairs reveal both how the candidate writes and why a story was chosen.
 
-## Separate reusable evidence from the old application
+If the candidate has no past answers, accept that and work from their CV, notes or a focused question about a relevant experience. If they request an immediate draft from the available material, proceed within that scope. Ask about missing facts only when they determine the answer; explain what the detail would resolve. Never invent a motivation or accomplishment to avoid asking.
 
-Before adapting, build a compact working map: original question, what it was testing, candidate story or claim, actual contribution, outcome, voice, original-company details and uncertainties. Preserve contribution level, dates, numbers and ownership. Do not promote a group result into personal ownership, a course into employment, or a plan into a completed accomplishment.
+## Read the old answer in parts
 
-Choose material for its relevance to the new question, rather than the superficial similarity of wording. A “why join us?” answer can contain a useful personal motivation but also a paragraph that belongs exclusively to the previous employer. Carry over the personal evidence; replace company-specific reasoning only when the inputs support the replacement.
+Make a compact working map; do not require the candidate to complete a form:
 
-Treat a previous answer as candidate-provided history, not independently verified evidence. If supplied answers contradict each other or the CV, ask about the consequential discrepancy. Do not silently choose a more impressive version. Strong phrasing can improve clarity without adding facts.
+- **Evidence:** what happened, the candidate’s own action, result, and any lesson or motivation they actually stated.
+- **Voice:** characteristic phrasing, sentence rhythm, directness, technical vocabulary and level of enthusiasm.
+- **Old application context:** company, product, mission, role or circumstances that made the original argument relevant.
+- **Uncertainty:** unsupported specificity, missing ownership, or consequential contradictions with other supplied material.
 
-## Identify the question’s actual job
+An answer can be a good voice sample and a poor source of evidence for the new prompt. Reuse either independently. Treat the material as candidate-provided history, not independently verified evidence. Preserve contribution level and distinctions such as course versus employment, team outcome versus individual action, and intention versus completed work. Clarify a material contradiction instead of silently selecting the more impressive version.
 
-Read [question strategies](references/question-strategies.md) when questions differ in purpose or a batch risks repetitive answers. Distinguish motivation, company/product interest, role fit, behavioral evidence, values/judgment and practical constraints. Combined questions need each part answered. Avoid turning every response into a miniature cover letter.
+## Decide what the new question needs
 
-For each new answer, decide what the reader needs to learn and choose the best evidence to make that clear. A familiar company name does not establish the candidate’s personal motivation. “Why this company?” and “Why this role?” overlap, but the former needs an actual connection to this organization and the latter needs evidence about the work.
+Identify what the prompt explicitly asks the reader to understand. For combined questions, account for every part. Distinguish company interest, role interest, capability, behavior, judgment and practical facts; read [question strategies](references/question-strategies.md) when this distinction or batch coverage needs closer attention. Do not claim knowledge of a hidden hiring rubric.
 
-If changing company or industry creates a substantive tension, surface it neutrally and ask the candidate what genuinely interests them. Do not invent personal convictions, political positions, product use, customers served, travel, mission alignment or childhood ambitions. The final answer should express motivations the candidate has supplied or confirmed.
+Choose an answer’s central point and the strongest relevant evidence before rewriting sentences. Compare plausible stories when the choice matters: does the example demonstrate the requested action or merely concern the same topic? If the question asks about disagreement, a successful group project is insufficient without an actual disagreement and the candidate’s response. If it asks what changed after a failure, spend space on the changed behavior.
 
-## Add company context carefully
+Separate these decisions:
 
-Prefer the candidate’s supplied posting and reliable context already available. Verify any new current company or product claim before using it, with browsing when available. Official sources can establish product descriptions and public role responsibilities; they do not establish what the candidate feels or what an employer secretly scores. If browsing is unavailable, use supported context and ask for a relevant passage instead of guessing.
+- What can transfer unchanged because it remains true and relevant?
+- What should be reframed because the new question asks something different?
+- What must be replaced because it belongs to the old company or role?
+- What is missing and requires candidate input?
 
-Choose one or two facts that connect to the candidate’s experience or interests. Explain the connection rather than quoting the company’s mission back to it. Avoid generic praise that could survive replacing the employer name. Product announcements, funding and headcount change; do not rely on remembered details. Put fact-check links in a short note outside the answer unless the application asks for citations.
+Do not force a familiar story into an unsuitable question. Explain why another supplied example fits better, or identify the specific missing incident. When useful, provide a provisional draft built only from supported material and clearly label what remains unresolved. If the candidate already resolved a contradiction, use that resolution without asking them to adjudicate it again. A finished answer contains no unresolved placeholders or unconfirmed personal claims.
 
-A rewrite from one defense company to another, for example, is not solved by swapping the names: the work, product, customers and candidate’s reasons may differ. Use the same principle across sectors without prescribing one ideological stance.
+## Build a credible connection to this company
 
-## Draft in the candidate’s voice
+Use the supplied posting and company material first. Confirm which organization is actually hiring: distinguish an employer from an agency, client, product name or aggregator label when they differ. Resolve a consequential identity ambiguity before writing company-specific praise. Verify any newly introduced current company/product claim with reliable sources, preferably official material. If browsing is unavailable, ask for the relevant passage or use only the supplied context. Do not substitute remembered funding, headcount or product details for verification.
 
-Use their existing answers as a style sample: sentence length, directness, vocabulary, level of enthusiasm and how they discuss their work. Preserve distinctive useful phrasing. Improve awkward structure and filler without replacing an ordinary person’s voice with corporate language. Default to a measured, specific tone when no sample exists. Do not manufacture mistakes to sound human or claim to evade an AI detector.
+A useful company connection links a relevant organizational fact to a reason the candidate has actually expressed, then to the role or work. Official material can establish the first part; it cannot establish the candidate’s personal interest. If that connection is missing, ask one focused question and treat suggested motivations as choices to confirm, not facts. Do not treat silence as confirmation. Still provide the supported contribution or reusable passage now; label the draft provisional until the missing connection is resolved. Do not invent product use, mission alignment, political convictions, customers served or a lifelong ambition.
 
-For a light edit, preserve the argument and most phrasing while fixing relevance, clarity and stale references. For a fuller rewrite, reorganize around the new question while retaining the personal evidence. If the old answer cannot support the new prompt, say what can be reused and ask for the missing example or motivation; do not force-fit it.
+Choose details that change the argument. Merely naming a product or quoting a mission does not explain why this person wants this work. Changing sector or company can expose a substantive difference in motivation; surface it neutrally and let the candidate supply their position. Keep source links and verification notes outside text intended for the form.
 
-Lead with the answer, then give concrete support and a connection to the target work. Behavioral questions often benefit from context, personal action and outcome, but do not visibly force every response into a STAR template. A real qualitative result is useful; do not invent a percentage because the answer lacks a number.
+## Use hiring reports and assessment rules within their scope
 
-## Check limits and the whole application
+Read [application research notes](references/research-notes.md) when the user asks about AI-written answers, what reviewers notice, or a hiring-process claim would materially change your advice. Consult the [source ledger](references/evidence-ledger.json) for precise attribution and limits. These dated reports include self-described recruiters and applicants; they are examples of particular workflows, not a universal assessment rubric. Distinguish what a speaker observed from their explanation of it, and retain counterexamples.
 
-Use [check_length.py](scripts/check_length.py) when a hard word or character cap matters. Pass a UTF-8 file containing only the answer, without headings, quotation marks or change notes. The script counts whitespace-separated words, Unicode code points and UTF-16 code units, including whitespace. If the portal defines a different counting method, use that. For an unspecified character counter, keep both character counts within the cap and leave room when sensible; do not claim an exact portal match. Recount the final edited answer, not an earlier draft.
+Connect a material report to a decision: reported practice → relevance to this application → specific edit or question. A report of identical or generic answers supports choosing concrete personal evidence; it does not prove AI authorship or a reliable detector. A wrong-company anecdote supports an old-context check; it does not establish automatic rejection. Do not add an ATS score, assume every employer reads a cover letter, or force a source citation into every ordinary rewrite.
 
-When cutting, preserve the direct answer and strongest personal evidence before flattering introductions or repeated context. A maximum is not a target to fill. Do not cut a response to an unexplained limit.
+Check supplied application instructions for stage-specific rules about assistance, personal authorship, evidence and length. Distinguish a particular published policy from an anonymous report and from unknown practice. If an explicit instruction limits AI assistance, identify the scope and keep the help within it rather than claim an undetectable workaround. Do not generalize one employer’s rule to other organizations or invent a restriction when none is supplied. Research specific current rules only when they matter; avoid turning a short rewrite into an open-ended investigation. Keep sources and uncertainty notes outside the text to paste.
 
-For a batch, map each question to its purpose and distribute evidence across the set. Reuse an example when it answers distinct aspects, but avoid repeating entire sentences or making all answers tell the same story. Keep dates, titles, outcomes, tone and motivations consistent. Answer each prompt independently enough that the employer can understand it.
+## Draft with the candidate’s voice and evidence
 
-## Deliver and iterate
+Default to a substantive, task-sized adaptation that improves the argument as well as the wording. Preserve useful distinctive phrasing while changing enough to answer the new question. If the user requests a light edit, retain the argument and most language; for a fuller rewrite, reorganize around the new prompt. Explain when their requested edit size cannot resolve a substantive mismatch.
 
-Present the ready-to-paste answer first, clearly separated from commentary. Follow with a short change note: which past answer it draws on, how the emphasis changed, and any specific fact still awaiting confirmation. Keep sources and questions outside the text to paste. Provide multiple variants only when requested or when a real tone/angle choice needs resolution.
+Give a direct answer and concrete support, with context only where needed to understand the action or reasoning. Use context, personal action and outcome for behavioral examples when useful, without forcing every answer into a visible template. Preserve genuine qualitative outcomes; a missing metric is not permission to invent one. Distinguish an action’s intended purpose from a confirmed result: making calls does not by itself establish that confusion was resolved or an operational outcome improved. If no result is supplied, describe the action and its relevance without adding a causal success claim.
 
-If a draft still contains uncertain factual material, label it as a draft and identify the unresolved part. Do not describe it as ready to submit. On follow-up, revise the chosen answer using the new facts, recheck the limit, and avoid repeating the whole analysis. If a user deliberately asks for hypothetical wording, keep it distinguishable from confirmed candidate history rather than silently merging it into the factual draft.
+Compare the draft with the candidate’s samples. Keep their level of formality, confidence and enthusiasm; remove corporate filler and unsupported superlatives. Do not erase a clear personal voice simply to make every sentence conventionally polished. When no sample exists, use measured, specific language. Do not manufacture errors or promise AI-detector evasion.
 
-Use supplied context by default. Create a persistent answer bank only when requested, at a user-chosen location, with the original question/company and answer paired together. Do not claim to remember it across sessions unless the environment actually retains it. This skill does not authorize uploading documents elsewhere, contacting an employer or submitting an application.
+## Check coverage, consistency and limits
+
+Read the draft against the exact prompt. Each requested part needs an actual answer, each important claim needs supplied evidence or verified company context, and each paragraph should earn its space. Check that no old employer, product, role or motivation survived by accident. If the same answer could fit a different company without a meaningful change, examine whether the company connection is sufficiently explained.
+
+For a batch, keep a temporary map of question → central point → evidence → distinctive detail. Allocate stories across the application so the set shows the candidate’s relevant range. A story can recur for distinct aspects; avoid repeating its full setup and identical conclusions. Keep dates, titles, ownership, motivations and outcomes consistent, and make each answer understandable on its own.
+
+Use [check_length.py](scripts/check_length.py) for hard word or character limits. Put only the final answer text in a UTF-8 file, without headings, count labels or notes, and run:
+
+```bash
+python3 scripts/check_length.py /path/to/answer.txt --max-words 200
+python3 scripts/check_length.py /path/to/answer.txt --max-characters 1000
+```
+
+Resolve `scripts/` relative to this skill. The checker reports whitespace-separated words, Unicode code points and UTF-16 code units, including whitespace; character caps require both character measures to fit. Follow a known portal-specific rule where supplied and do not claim an exact portal match otherwise. Recount after the final edit. When cutting, preserve the direct answer and strongest evidence ahead of flattering introductions or repeated context. A maximum is not a length target.
+
+## Deliver the answer and useful reasoning
+
+Present the answer first, clearly separated from material the candidate should not paste. State whether it is ready to paste or a provisional draft; never call unconfirmed factual material finished. Include the checked count when a hard limit applies.
+
+Then explain the decisions that materially affected the result:
+
+- Which prior answer or incident supplied the evidence, and why it fits the new prompt.
+- What the old answer missed for this application and how the emphasis or structure changed.
+- Which distinctive wording or voice choices were retained, and any important tradeoff, gap or fact still requiring confirmation.
+
+Make this reasoning specific enough to help the candidate evaluate the answer. “Tailored to the company and improved clarity” is not an explanation. For a substantial rewrite or a batch, give enough analysis to show evidence selection, prompt coverage and application coherence. For a light edit, explain only the meaningful changes. When the user asks for a brief note, keep it brief: omit routine checks already evident from the answer and focus on the one or two edits that matter. This is an editorial rationale, not a transcript of internal deliberation. Respect requests for a clean answer only; keep necessary uncertainty visible without burying it in polished prose.
+
+Offer alternatives only when requested or when a real unresolved angle would change the answer. On follow-up, incorporate the candidate’s corrections, update affected answers and recheck limits instead of repeating the entire intake and rationale.
+
+Use supplied context by default. Create a persistent answer bank only when requested at an agreed location, preserving each original question/company with its exact answer and distinguishing adaptations from originals. Do not imply memory across sessions without actual persistence. This skill does not authorize external uploads, employer contact or application submission.
