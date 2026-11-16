@@ -1,0 +1,4 @@
+interface:
+  display_name: "Application Answer Adapter"
+  short_description: "Tailor past answers for your next job application"
+  default_prompt: "Use $application-answer-adapter to adapt my past application answers to this company, role and question while preserving my voice."
